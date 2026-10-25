@@ -2,22 +2,22 @@
 
 ## Punto 1,2,3
 
-Alimentazione PMT  a 1200V
+- Alimentazione PMT  a 1200V
 Visualizzazione forma d'onda con oscilloscopio.
     Scala orizzontale 25ns/div
     Trigger negative edge -30.4mV 
     Impulso circa 1 divisione
     rate trigger 6kHz
 
-Alimentazione a 1000V
+- Alimentazione a 1000V
     "Il segnale è più carino"
     Diminuita l'ampiezza ma difficile da quantificare
     rate trigger in basso a destra 980-1100 Hz
 
-Alimentazione 900V
+- Alimentazione 900V
 rate trigger 150-300
 
-Alimentazione 800V
+- Alimentazione 800V
 rate triggger 40-120 circa 100 Hz
 
 Si può fare la media del segnale! (non è una buona idea)
@@ -41,7 +41,7 @@ Variazione della soglia con in cacciavite
 (Problema: multimetro e discriminatore non stanno andando d'accordo)
 
 
-Tanti scatti solo colpa del noise rate
+Tanti scatti solo colpa del noise rate.
 Trovare punto di lavoro in cui vediamo solo i raggi cosmici (frequenza raggi cosmici circa 80-100 Hz) 
 per vedere solo raggi cosmici sarebbe 800-900V ma così ne vediamo pochi, a ddp più alta c'è più noise ma poi si abbatte con le coincidenze.
 
@@ -49,5 +49,19 @@ per vedere solo raggi cosmici sarebbe 800-900V ma così ne vediamo pochi, a ddp 
 Misura tempo impulso discriminatore: da 10ns a 58ns =48ns
 Misura ritardo discriminatore: 14ns da inizio discesa a inizio discesa. 12ns invece se consideriamo che il segnale deve scendere a -20mV prima di far scattare il discriminatore. (misure con cursori)
 
-Effetto soglia discriminatore: triggerando su CH2, negative edge a -7.20mV
-    Misura 
+Effetto soglia discriminatore: triggerando su CH2, negative edge -540 mV.
+soglia -0.23 V rate 365 460 355
+soglia -0.24 V rate 385 464 448
+soglia -0.30 V rate 275 292 307 345
+soglia -0.46 V rate 107 110 140 118
+soglia -0.60 V rate 66 26 55 56 26 49
+
+
+
+### problema incontrato
+L'alimentatore era alimentato nel crate e rubava tutta la corrente agli altri moduli :/
+
+## Punto 5
+soglia discriminatore -0.30V
+Conteggi PMT1 2765, 2765, 2754 in 10s
+Conteggi PMT2 
