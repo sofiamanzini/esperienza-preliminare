@@ -1,0 +1,4 @@
+#Conteggi in singola con scaler
+#PMT    #Misure
+1   2765    2765    2754
+2   1000    1000    1000
