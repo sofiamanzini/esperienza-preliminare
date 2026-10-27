@@ -65,3 +65,26 @@ L'alimentatore era alimentato nel crate e rubava tutta la corrente agli altri mo
 soglia discriminatore -0.30V
 Conteggi PMT1 2765, 2765, 2754 in 10s
 Conteggi PMT2 
+
+## Giorno 2
+
+alimentazioni PMT
+1104 V
+1104 V
+1104 V
+
+I cavi con qui stiamo collegando i pmt a discriminatori e i discriminatori allo scaler sono con ritardo uguale.
+
+Problema: al pmt 1 entrano fotoni non autorzzati e boh contava 800 eventi in 1 secondo quando dovevanoe ssere 200. (è stato coperto con un telo e ci hanno abbassato la luce ora siamo a 280 circa :) ).
+
+Nota: rilevatore 1 più lontano da 2 da quanto lo sia 2 rispetto a 3. (ci aspettiamo 12 < 23)
+
+Misura ritardo introdotto dal modulo di coincidenza: visualizzando con l'oscilloscopio i segnali del discriminatore e dell'unità di coincidenza e misurando con i cursori il ritardo. 12.2 ns, 14.2, 14.2, 14.4 ns. Di questi, 2ns sono di cavo.
+
+Cavi tra dscriminatore a coincidenza 2ns e da coicidenza a oscilloscopio 2 ns.
+
+
+Misura con due moduli di coincidenze per l'efficienza. Siamoa ncora a 1104V
+
+L'output dei tre PMT sono stati collegati ai discriminatori con cavi da 3ns, e allo scaler con cvi da 4ns
+Cavi da 2ns tra discriminatore e coincidenze.
