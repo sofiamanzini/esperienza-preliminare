@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793204225.10616 "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793204226.11484 0
+["pdflatex"] 1793204693.24512 "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793204694.08205 0
   "C:/Users/Sofia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793201142 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Sofia/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1792942403 13402714 77c3f3085d0efb08204fc02a4d0ed071 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -64,14 +64,13 @@
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1780842058 2885 9c645d672ae17285bba324998918efd8 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1780842058 4023 5a4fcfe68d7c6df02f94d7bf578e99fd ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/l3backend-pdftex.def" 1790000841 31824 60c8410f6fc024f189369cb45fa634af ""
-  "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty" 1731767677 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty" 1791820896 364761 1718259de0b7353d0fefc6e44af29c0e ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1780057721 17611 1fdd60d12fed6aebd140f4d060571642 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "Relazione.aux" 1793204225 2070 3450a9af1164b9316fcecbcc0f369571 "pdflatex"
-  "Relazione.tex" 1793204222 6922 84066e95568cc759c4104d05d2537c5f ""
-  "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" 1793204222 6922 84066e95568cc759c4104d05d2537c5f ""
+  "Relazione.aux" 1793204693 2070 3450a9af1164b9316fcecbcc0f369571 "pdflatex"
+  "Relazione.tex" 1793204692 6842 e02e96206d069d6a7093622a872a8d5a ""
+  "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" 1793204692 6842 e02e96206d069d6a7093622a872a8d5a ""
   "conteggi in singola.png" 1793203485 17246 f6efd3470aa076334fdd7b434fad0403 ""
   "rate_tensione.png" 1793121020 15813 bded48841bfe05f87d968228e0f97471 ""
   (generated)
