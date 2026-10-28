@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  28 OCT 2026 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  28 OCT 2026 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -198,30 +198,89 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count307
 \@lastruleclass=\count308
 \@thisrulewidth=\dimen181
-) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/setspace\setspace.sty
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2026-10-12 v3.6.4 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count309
+\l__siunitx_number_exponent_fixed_int=\count310
+\l__siunitx_number_min_decimal_int=\count311
+\l__siunitx_number_min_integer_int=\count312
+\l__siunitx_number_round_precision_int=\count313
+\l__siunitx_number_lower_threshold_int=\count314
+\l__siunitx_number_upper_threshold_int=\count315
+\l__siunitx_number_group_first_int=\count316
+\l__siunitx_number_group_size_int=\count317
+\l__siunitx_number_group_min_int=\count318
+\l__siunitx_number_group_minimum_int=\count319
+\l__siunitx_compound_count_int=\count320
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+Include code introduced on 2026-09-12
+\l__siunitx_table_tmp_box=\box57
+\l__siunitx_table_tmp_dim=\dimen182
+\l__siunitx_table_column_width_dim=\dimen183
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_uncert_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen184
+\l__siunitx_table_carry_dim=\dimen185
+\l__siunitx_unit_tmp_int=\count321
+\l__siunitx_unit_position_int=\count322
+\l__siunitx_unit_total_int=\count323
+\l__siunitx_sexagesimal_tmp_dim=\dimen186
+\l__siunitx_sexagesimal_marker_box=\box63
+\l__siunitx_sexagesimal_unit_box=\box64
+(C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen187
+\ar@mcellbox=\box65
+\extrarowheight=\dimen188
+\NC@list=\toks28
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box66
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\color.sty
+Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/graphics\mathcolor.ltx)) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
+\l__color_backend_stack_int=\count324
 ) (Relazione.aux)
 \openout1 = `Relazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Info: Redefining \it@ocap on input line 25.
-LaTeX Info: Redefining \it@ccap on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Info: Redefining \it@ocap on input line 26.
+LaTeX Info: Redefining \it@ccap on input line 26.
 
 
 File italian.ldf warning: 
@@ -229,21 +288,21 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 25.
+italian.ldf    on input line 26.
 
 (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen182
-\scratchbox=\box57
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen183
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count325
+\scratchdimen=\dimen189
+\scratchbox=\box67
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen190
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks30
 ) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -284,18 +343,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
  (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <rate_tensione.png, id=1, 419.166pt x 314.3745pt>
 File: rate_tensione.png Graphic file (type png)
 <use rate_tensione.png>
-Package pdftex.def Info: rate_tensione.png  used on input line 76.
+Package pdftex.def Info: rate_tensione.png  used on input line 77.
 (pdftex.def)             Requested size: 386.95897pt x 290.22101pt.
 
 
@@ -304,14 +364,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 <conteggi in singola.png, id=13, 419.166pt x 300.6432pt>
 File: conteggi in singola.png Graphic file (type png)
 <use conteggi in singola.png>
-Package pdftex.def Info: conteggi in singola.png  used on input line 138.
+Package pdftex.def Info: conteggi in singola.png  used on input line 148.
 (pdftex.def)             Requested size: 386.95897pt x 277.5447pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -323,15 +383,15 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4852 strings out of 467866
- 76149 string characters out of 5417837
- 503747 words of memory out of 5000000
- 33681 multiletter control sequences out of 15000+600000
- 635930 words of font info for 72 fonts, out of 8000000 for 9000
+ 8945 strings out of 467866
+ 197303 string characters out of 5417837
+ 596317 words of memory out of 5000000
+ 37743 multiletter control sequences out of 15000+600000
+ 636628 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,486b,270s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,10n,80p,755b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relazione.pdf (3 pages, 144286 bytes).
+Output written on Relazione.pdf (3 pages, 146158 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
