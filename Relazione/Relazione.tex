@@ -15,6 +15,9 @@
 \renewcommand{\thesubsection}{\thesection.\alph{subsection}}  %% use 1.a numbering
 
 \usepackage{graphicx} % Required for inserting images
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{setspace}
 
 \title{Esperienza Preliminare}
 \author{Johann Bandini, Sofia Manzini, Alessio Niccolai }
@@ -40,6 +43,34 @@ Inoltre il voltaggio è stato scelto comunque in modo da avere valori di frequen
 
 \section{Punto di lavoro}
 
+
+\begin{table}[htbp]
+    \centering
+   
+    \begin{tabular}{||c|c||}
+        
+       
+    
+     
+        \hline   
+        Tensione nominale (V) & Media del rate di trigger (Hz) \\
+        \hline 
+        900  & 18 ${\pm}$ 4 \\
+        \hline
+        1000 & 61 ${\pm}$ 6 \\
+        \hline
+        1050 & 160 ${\pm}$ 15 \\
+        \hline
+        1100 & 390 ${\pm}$ 35 \\
+        \hline
+        1200 & 2830 ${\pm}$ 50 \\
+        \hline
+    \end{tabular}
+    \caption{Media di 6 misure del rate di trigger dell'oscilloscopio,
+     in funzione della tensione di alimentazione del PMT.}
+\end{table}
+
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.8\textwidth]{rate_tensione.png}
@@ -55,7 +86,7 @@ suggerendo una perdita di eventi validi. Pertanto, la scelta del punto di
 lavoro a 1100V rappresenta un compromesso ottimale tra sensibilità e rumore.
 
 
-\section{Discriminatore e conteggi in singola}
+\section{Discriminatore e conteggi}
 Descrizione di come abbiamo collegato i PMT ai discriminatori e allo scaler, 
 e come abbiamo effettuato le misure di conteggio in singola.
 
@@ -65,8 +96,50 @@ Scelta soglia discriminatore, misura di ritaardo introdotto dal discriminatore,
 misura della larghezza del segnale in uscita dal discriminatore.
 
 
-\subsection{doppie}
-\subsection{triple}
+\singlespacing
+Si sono connessi i segnali logici discriminati dei tre PMT allo scaler.
+\\In tabella sono riportati i conteggi in 10 secondi per i tre PMT 
+in modalità singola.
+\\ In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
+
+con incertezze date dalla deviazione standard della media campionaria.
+\\
+
+\begin{table}[htbp]
+    \centering
+    
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        % Intestazione: "Conteggi" unisce le colonne dalla 2 alla 11
+         & \multicolumn{10}{c|}{\textbf{Conteggi in 10s}} \\
+        \cline{2-11} 
+        
+        
+        \hline
+        \textbf{PMT1} & 3001 & 2670 & 2698 & 2777 & 2785 & 2913 & 2851 & 2963 & 2929 & 2769 \\
+        \hline
+        \textbf{PMT2} & 1158 & 1111 & 1141 & 1102 & 1121 & 1184 & 1136 & 1131 & 1132 & 1118 \\
+        \hline
+        \textbf{PMT3} & 2020 & 1975 & 1983 & 1902 & 1931 & 1996 & 2004 & 1963 & 1963 & 1985 \\
+        \hline
+    \end{tabular}
+    \caption{Conteggi in singola misura con scaler.}
+\end{table}
+
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{conteggi in singola.png}
+    \caption{Conteggi in singola misura con scaler.}
+    \label{fig:conteggi_singola}
+\end{figure}
+
+
+\newpage
+
+\subsection{Coincidenze}
+
 \subsection{ritardo}
 \section{Coincidenze e misure di efficienza}
 
@@ -74,4 +147,6 @@ $$\frac{\#\text{triple}}{\#\text{doppie}} = \frac{\#\text{doppia} \cdot P_{\text
 
 \section{Distribuzione conteggi}
 \subsection{Distribuzione intervalli di tempo}
+
+
 \end{document}
