@@ -126,7 +126,7 @@ con incertezze date dalla deviazione standard della media campionaria.
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
         \hline
        
-         & {\textbf{Conteggi in 10s}} \\
+         & \multicolumn{10}{c|} {\textbf{Conteggi in 10s}} \\
         \cline{2-11} 
         
         
@@ -151,11 +151,26 @@ con incertezze date dalla deviazione standard della media campionaria.
 \end{figure}
 
 
-\newpage
+\clearpage
 
-\subsection{Coincidenze}
+\section{Coincidenze}
+Si sono misurati i conteggi in 10 secondi che facessero scattare in coincidenza varie combinazioni dei tre PMT.
+In figura \ref{fig:coincidenze} sono riportati i valori medi dei conteggi per ogni combinazione di coincidenze, con incertezze date dalla deviazione standard della media campionaria.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{coincidenze.png}
+    \caption{Conteggi nelle coincidenze.}
+    \label{fig:coincidenze}
+\end{figure}
+
+
+
+
 
 \subsection{ritardo}
+
+
 \section{Coincidenze e misure di efficienza}
 
 Il rapporto tra coincidenze triple e doppie è legato all'efficienza dalla relazione:
@@ -167,7 +182,36 @@ Il rapporto triple su doppie si avvicina all'efficenza quanto più  $ P_{\text{p
 
 Il motivo per cui è stato scelto di misurare l'efficienza del rivelatore 2 è per massimizzare  $ P_{\text{pass}}$ 
 
+\section{Triple e doppie}
+Per misurare il rapporto di coincidenze triple e doppie, si sono collegati gli output dei discriminatori al modulo dicoincidenze tramite cavi da 2ns, le cui uscite sono state connesse
+allo scaler per permettere di registrare i conteggi simultaneamente su un periodo di 1000 secondi.
+\singlespacing
+Le misure sono riportate in tabella insieme alla stima del rapporto triple su doppie.
+\\ Dire qualcosa sull'incertezza dell'efficienza.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{||c|c|c||}
+        \hline
+        \textbf{Triple}  & \textbf{Doppie} & \textbf{Rapporto} \\
+        \hline
+        1697 & 2112 & 80.4 $\pm$ 0.9 \% \\
+        \hline
+        
+    \end{tabular}
+
+
+\end{table}
+
 \section{Distribuzione conteggi}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.75\textwidth]{distribuzione.png}
+    \caption{Distribuzione conteggi coincidenze triple}
+    \label{fig:distribuzione}
+\end{figure}
+
+
+
 \subsection{Distribuzione intervalli di tempo}
 
 
