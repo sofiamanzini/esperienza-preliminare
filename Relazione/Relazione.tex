@@ -1,4 +1,19 @@
-\documentclass{article}
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{booktabs}
+\newcommand{\rem}[1]{[\emph{#1}]}
+\newcommand{\exn}{\phantom{xxx}}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}  %% use 1.a numbering
+
 \usepackage{graphicx} % Required for inserting images
 
 \title{Esperienza Preliminare}
@@ -11,7 +26,7 @@
 
 \section{Introduzione}
 Lo scopo dell'esperienza è la rivelazione di raggi cosmici mediante l'utilizzo di PMT (plastic scintillators coupled to photomultiplier tubes).
-In particolare l'analisi si concentra sullo studio delle proprietà statistiche dei conteggi delle particelle rivelate, e sulla misurazione dell'efficienza di rivelazione di uno dei tre PMT. CIAO
+In particolare l'analisi si concentra sullo studio delle proprietà statistiche dei conteggi delle particelle rivelate, e sulla misurazione dell'efficienza di rivelazione di uno dei tre PMT.
 
 \section{Procedure sperimentali}
 In questa sezione descriveremo le procedure sperimentali utilizzate durante l'esperienza. Verranno dettagliati i passaggi seguiti, gli strumenti utilizzati e le condizioni in cui sono stati effettuati gli esperimenti.
@@ -54,6 +69,9 @@ misura della larghezza del segnale in uscita dal discriminatore.
 \subsection{triple}
 \subsection{ritardo}
 \section{Coincidenze e misure di efficienza}
+
+$$\frac{\#\text{triple}}{\#\text{doppie}} = \frac{\#\text{doppia} \cdot P_{\text{pass}} \cdot \varepsilon}{\#\text{doppie}}$$
+
 \section{Distribuzione conteggi}
 \subsection{Distribuzione intervalli di tempo}
 \end{document}
