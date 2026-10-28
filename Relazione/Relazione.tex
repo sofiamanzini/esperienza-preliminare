@@ -24,13 +24,34 @@ La scelta è stata effettuata notando che le misure per voltaggi più alti resti
 Inoltre il voltaggio è stato scelto comunque in modo da avere valori di frequenze di scatto maggiori di 100Hz in quanto successivamente, con l'utilizzo delle unità di coincidenza, la quasi totalità degli scatti accidentali sarà eliminata.
 
 \section{Punto di lavoro}
-\begin{image}[h!]
+
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.8\textwidth]{.png}
-    \caption{Rate di conteggio in funzione della tensione di alimentazione del PMT.}
+    \includegraphics[width=0.8\textwidth]{rate_tensione.png}
+    \caption{Rate di trigger in funzione della tensione di alimentazione del PMT.}
     \label{fig:rate_vs_v}
+\end{figure}
+Considerazioni per come abbiamo scelto il punto di lavoro del PMT. 
+Il rate di trigger in funzione della tensione di alimentazione del PMT è mostrato 
+in figura \ref{fig:rate_vs_v}. Si può notare che per tensioni più alte, 
+il rate di trigger aumenta significativamente, indicando un aumento del rumore. 
+D'altra parte, per tensioni più basse, il rate di trigger diminuisce,
+suggerendo una perdita di eventi validi. Pertanto, la scelta del punto di 
+lavoro a 1100V rappresenta un compromesso ottimale tra sensibilità e rumore.
+
+
 \section{Discriminatore e conteggi in singola}
+Descrizione di come abbiamo collegato i PMT ai discriminatori e allo scaler, 
+e come abbiamo effettuato le misure di conteggio in singola.
+\\
 L'output dei tre PMT sono stati collegati ai discriminatori con cavi da 2ns, e allo scaler con cvi da 4ns
+\\
+Scelta soglia discriminatore, misura di ritaardo introdotto dal discriminatore,
+misura della larghezza del segnale in uscita dal discriminatore.
+
+\\
+
+
 \subsection{doppie}
 \subsection{triple}
 \subsection{ritardo}
