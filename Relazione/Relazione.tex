@@ -100,6 +100,25 @@ Con l'apparato nuovamente in funzione è stata misurata la durata dell'impulso e
 Inoltre è stato misurato il ritardo del segnale del discriminatore rispetto all'impulso del PMT1. La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2)\textit{ns}$. Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20\textit{mV}$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2)\textit{ns}$.
 L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore associato al singolo cursore ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, così da considerare l'incertezza combinata su entrambi gli estremi dell'intervallo temporale.
 
+\subsubsection{Effetto soglia discriminatore}
+Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza misurati al variare della soglia del discriminatore, dove $s$ rappresenta la deviazione standard della media campionaria. All'aumentare del valore assoluto della soglia si osserva una progressiva riduzione del conteggio medio, dovuta all'esclusione dei segnali con ampiezza inferiore al livello impostato.
+\begin{table}[htbp]
+  \centering
+  \caption{Conteggio medio e deviazione standard in funzione della soglia del discriminatore.}
+  \label{tab:effetto_soglia}
+  \vspace{0.2cm}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Soglia [V]} & \textbf{$\bar{x} \pm s$ [Hz]} \\
+    \midrule
+    -0,024 & $412,83 \pm 49,97$ \\
+    -0,030 & $304,75 \pm 29,85$ \\
+    -0,046 & $118,75 \pm 14,91$ \\
+    -0,060 & $46,33 \pm 16,67$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
 %In questa configurazione il segnale del discriminatore sull'oscilloscopio risultava incoerente con il segnale del PMT1: infatti, nonostante la soglia inferiore in modulo, non vi era totale corrispondenza tra gli eventi triggerati dall'oscilloscopio e quelli rappresentati dal discriminatore. Inoltre, sull'oscilloscopio il segnale del discriminatore presentava un livello di linea di base continuo e traslato verso il basso rispetto a quello nominale     
 
 
@@ -110,13 +129,12 @@ L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore assoc
 %Scelta soglia discriminatore, misura di ritaardo introdotto dal discriminatore,
 %misura della larghezza del segnale in uscita dal discriminatore.
 
-
+\subsection{conteggi in singola}
 \singlespacing
 Si sono connessi i segnali logici discriminati dei tre PMT allo scaler.
 \\In tabella sono riportati i conteggi in 10 secondi per i tre PMT 
 in modalità singola.
 \\ In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
-
 con incertezze date dalla deviazione standard della media campionaria.
 \\
 
