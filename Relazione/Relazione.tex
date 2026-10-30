@@ -186,7 +186,7 @@ In figura \ref{fig:coincidenze} sono riportati i valori medi dei conteggi per og
 
 
 
-\subsection{ritardo}
+
 
 
 \section{Coincidenze e misure di efficienza}
@@ -201,11 +201,10 @@ Il rapporto triple su doppie si avvicina all'efficenza quanto più  $ P_{\text{p
 Il motivo per cui è stato scelto di misurare l'efficienza del rivelatore 2 è per massimizzare  $ P_{\text{pass}}$ 
 
 \section{Triple e doppie}
-Per misurare il rapporto di coincidenze triple e doppie, si sono collegati gli output dei discriminatori al modulo dicoincidenze tramite cavi da 2ns, le cui uscite sono state connesse
-allo scaler per permettere di registrare i conteggi simultaneamente su un periodo di 1000 secondi.
+Per ottenere una stima dell'efficienza dello scintillatore centrale, si è valutato il rapporto fra gli eventi di coincidenza tripla e doppia, trascurando le coindcidenze doppie accidentali.\singlespacing
+Per misurare il rapporto di coincidenze triple e doppie, si sono collegati gli output dei discriminatori al modulo di coincidenza tramite cavi da 2ns, le cui uscite sono state connesse allo scaler per permettere di registrare i conteggi simultaneamente su un periodo di 1000 secondi.
 \singlespacing
-Le misure sono riportate in tabella insieme alla stima del rapporto triple su doppie.
-\\ Dire qualcosa sull'incertezza dell'efficienza.
+Le misure sono riportate in tabella insieme alla stima del rapporto triple su doppie. \\L'incertezza sull'efficienza è data dalla distribuzione binomiale delle coincidenze triple sul numero di doppie fissate.
 \begin{table}[h!]
     \centering
     \begin{tabular}{||c|c|c||}
@@ -221,12 +220,17 @@ Le misure sono riportate in tabella insieme alla stima del rapporto triple su do
 \end{table}
 
 \section{Distribuzione conteggi}
+Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi.
+\singlespacing
+In figura, è riportato l'istrogramma della frequenza dei conteggi, e la poissoniana con media restituita dal fit dei minimi quadrati sui dati.
+\\ Il rapporto della media aritmetica sulla varianza dei dati è $\text{media}/\text{varianza}=1.016 \approx 1$, come ci si aspetterebbe da una poissoniana.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{distribuzione.png}
+    \includegraphics[width=0.75\textwidth]{fit poisson.png}
     \caption{Distribuzione conteggi coincidenze triple}
-    \label{fig:distribuzione}
+    \label{fig:fit poisson}
 \end{figure}
+
 
 
 
