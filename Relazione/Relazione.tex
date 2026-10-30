@@ -100,6 +100,25 @@ Con l'apparato nuovamente in funzione è stata misurata la durata dell'impulso e
 Inoltre è stato misurato il ritardo del segnale del discriminatore rispetto all'impulso del PMT1. La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2)\textit{ns}$. Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20\textit{mV}$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2)\textit{ns}$.
 L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore associato al singolo cursore ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, così da considerare l'incertezza combinata su entrambi gli estremi dell'intervallo temporale.
 
+\subsubsection{Effetto soglia discriminatore}
+Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza misurati al variare della soglia del discriminatore, dove $s$ rappresenta la deviazione standard della media campionaria. All'aumentare del valore assoluto della soglia si osserva una progressiva riduzione del conteggio medio, dovuta all'esclusione dei segnali con ampiezza inferiore al livello impostato.
+\begin{table}[htbp]
+  \centering
+  \caption{Conteggio medio e deviazione standard in funzione della soglia del discriminatore.}
+  \label{tab:effetto_soglia}
+  \vspace{0.2cm}
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Soglia [V]} & \textbf{$\bar{x} \pm s$ [Hz]} \\
+    \midrule
+    -0,024 & $412,83 \pm 49,97$ \\
+    -0,030 & $304,75 \pm 29,85$ \\
+    -0,046 & $118,75 \pm 14,91$ \\
+    -0,060 & $46,33 \pm 16,67$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
 %In questa configurazione il segnale del discriminatore sull'oscilloscopio risultava incoerente con il segnale del PMT1: infatti, nonostante la soglia inferiore in modulo, non vi era totale corrispondenza tra gli eventi triggerati dall'oscilloscopio e quelli rappresentati dal discriminatore. Inoltre, sull'oscilloscopio il segnale del discriminatore presentava un livello di linea di base continuo e traslato verso il basso rispetto a quello nominale     
 
 
@@ -110,13 +129,12 @@ L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore assoc
 %Scelta soglia discriminatore, misura di ritaardo introdotto dal discriminatore,
 %misura della larghezza del segnale in uscita dal discriminatore.
 
-
+\subsection{conteggi in singola}
 \singlespacing
 Si sono connessi i segnali logici discriminati dei tre PMT allo scaler.
 \\In tabella sono riportati i conteggi in 10 secondi per i tre PMT 
 in modalità singola.
 \\ In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
-
 con incertezze date dalla deviazione standard della media campionaria.
 \\
 
@@ -168,26 +186,25 @@ In figura \ref{fig:coincidenze} sono riportati i valori medi dei conteggi per og
 
 
 
-\subsection{ritardo}
+
 
 
 \section{Coincidenze e misure di efficienza}
 
 Il rapporto tra coincidenze triple e doppie è legato all'efficienza dalla relazione:
-$$\frac{\#\text{triple}}{\#\text{doppie}} = \frac{\#\text{doppia} \cdot P_{\text{pass}} \cdot \varepsilon}{\#\text{doppie}} = P_{\text{pass}} \cdot \varepsilon$$
+$$\frac{\#\text{triple}}{\#\text{doppie}} = \frac{\#\text{doppie} \cdot P_{\text{pass}} \cdot \varepsilon}{\#\text{doppie}} = P_{\text{pass}} \cdot \varepsilon$$
 
-Dove $\varepsilon$ è l'efficienza del rivelatore 2 e $ P_{\text{pass}}$ è la probabilità che un raggio cosmico sia passato dal rivelatore 2 condizionata dallo scatto della coincidenza doppia sui rivelatori 1 e 3.
+Dove $\varepsilon$ è l'efficienza del rivelatore e $ P_{\text{pass}}$ è la probabilità che un raggio cosmico sia passato dal rivelatore condizionata dallo scatto della coincidenza doppia sugli altri due rivelatori.
 
 Il rapporto triple su doppie si avvicina all'efficenza quanto più  $ P_{\text{pass}}$ è vicina ad 1 e questo dipende dalle caratteristiche geometriche dei 3 rivelatori.
 
-Per questo motivo è stato scelto di misurare l'efficienza del rivelatore 2, che trovandosi al centro, massimizza il valore di $ P_{\text{pass}}$.
+La scelta di effettuare la misura sul rivelatore centrale deriva dal fatto che $P_{\text{pass}}$ è massimizzata in questa configurazione e il rapporto triple su doppie si avvicina il più possibile all'efficienza del rivelatore.
 
 \section{Triple e doppie}
-Per misurare il rapporto di coincidenze triple e doppie, si sono collegati gli output dei discriminatori al modulo dicoincidenze tramite cavi da 2ns, le cui uscite sono state connesse
-allo scaler per permettere di registrare i conteggi simultaneamente su un periodo di 1000 secondi.
+Per ottenere una stima dell'efficienza dello scintillatore centrale, si è valutato il rapporto fra gli eventi di coincidenza tripla e doppia, trascurando le coindcidenze doppie accidentali.\singlespacing
+Per misurare il rapporto di coincidenze triple e doppie, si sono collegati gli output dei discriminatori al modulo di coincidenza tramite cavi da 2ns, le cui uscite sono state connesse allo scaler per permettere di registrare i conteggi simultaneamente su un periodo di 1000 secondi.
 \singlespacing
-Le misure sono riportate in tabella insieme alla stima del rapporto triple su doppie.
-\\ Dire qualcosa sull'incertezza dell'efficienza.
+Le misure sono riportate in tabella insieme alla stima del rapporto triple su doppie. \\L'incertezza sull'efficienza è data dalla distribuzione binomiale delle coincidenze triple sul numero di doppie fissate.
 \begin{table}[h!]
     \centering
     \begin{tabular}{||c|c|c||}
@@ -203,16 +220,31 @@ Le misure sono riportate in tabella insieme alla stima del rapporto triple su do
 \end{table}
 
 \section{Distribuzione conteggi}
+Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi.
+\singlespacing
+In figura, è riportato l'istrogramma della frequenza dei conteggi, e la poissoniana con media restituita dal fit dei minimi quadrati sui dati.
+\\ Il rapporto della media aritmetica sulla varianza dei dati è $\text{media}/\text{varianza}=1.016 \approx 1$, come ci si aspetterebbe da una poissoniana.
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\textwidth]{distribuzione.png}
+    \includegraphics[width=0.75\textwidth]{fit poisson.png}
     \caption{Distribuzione conteggi coincidenze triple}
-    \label{fig:distribuzione}
+    \label{fig:fit poisson}
 \end{figure}
+
 
 
 
 \subsection{Distribuzione intervalli di tempo}
 
+\section{Appendice}
+\subsubsection{Coincidenze doppie accidentali}
 
+Il rate delle coincidenze doppie accidentali è dato dalla relazione:
+
+$$R_a = R_1 \cdot R_3(\Delta t_1 + \Delta t_3 - 2\Delta t_s)$$
+
+Dove $R_1$ e $R_3$ sono i rate in singola dei rivelatori 1 e 3, $\Delta t_1$ e $\Delta t_3$ sono le lunghezze temporali degli impulsi dei segnali discriminati dei rivelatori 1 e 3 e $\Delta t_s$ è il tempo di sovrapposizione minimo richiesto dall’unità di coincidenza.
+
+Nel nostro caso $R_1 \approx 284 Hz$, $R_2 \approx 197 Hz$, $\Delta t_1 \approx \Delta t_3 \approx 48ns$ e $\Delta t_s \approx 2ns$ quindi ci aspettiamo un rate delle accidentali $R_a \approx 5.1\cdot 10^{-3} Hz$.
+In un tempo $\Delta T = 100 s$ ci aspettiamo circa $\#accidentali = R_a \cdot \Delta T \approx 0.51$  mentre su $\Delta T = 1000 s$ ci aspettiamo $\#accidentali = R_a \cdot \Delta T \approx 5.1$ che sono trascurabili nella misura effettuata per il rapporto triple su doppie dove il numero di doppie misurato in 1000s è di 2112.
 \end{document}
