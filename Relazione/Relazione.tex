@@ -247,4 +247,16 @@ Dove $R_1$ e $R_3$ sono i rate in singola dei rivelatori 1 e 3, $\Delta t_1$ e $
 
 Nel nostro caso $R_1 \approx 284 Hz$, $R_2 \approx 197 Hz$, $\Delta t_1 \approx \Delta t_3 \approx 48ns$ e $\Delta t_s \approx 2ns$ quindi ci aspettiamo un rate delle accidentali $R_a \approx 5.1\cdot 10^{-3} Hz$.
 In un tempo $\Delta T = 100 s$ ci aspettiamo circa $\#accidentali = R_a \cdot \Delta T \approx 0.51$  mentre su $\Delta T = 1000 s$ ci aspettiamo $\#accidentali = R_a \cdot \Delta T \approx 5.1$ che sono trascurabili nella misura effettuata per il rapporto triple su doppie dove il numero di doppie misurato in 1000s è di 2112.
+
+\subsection{Errore rapporto triple su doppie}
+
+L'errore del rapporto triple su doppie è stato ottenuto considerando l'errore su una distribuzione binomiale con numero di doppie fissato.
+Definendo:
+$$\frac{\#\text{triple}}{\#\text{doppie}}  = P_{\text{pass}} \cdot \varepsilon = {\varepsilon}^{,} $$
+
+L'errore su ${\varepsilon}^{,} $ è dato da:
+
+$$\sigma_{{\varepsilon}^{,}} = \sqrt {\frac{{\varepsilon}^{,} \cdot (1- {\varepsilon}^{,})}{\#doppie} }$$
+
+Nel nostro caso $\#doppie = 2112$ e $\varepsilon^{,} = 0.804$, quindi si ottiene $\sigma_{{\varepsilon}^{,}} = 9 \cdot 10^{-3}$.
 \end{document}
