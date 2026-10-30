@@ -65,8 +65,28 @@ INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.c
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\l3backend-pdftex.def
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\l3backend-pdftex.def
 INPUT .\Relazione.aux
@@ -81,10 +101,11 @@ INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\it\babel-it.ini
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\it\babel-it.ini
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -109,6 +130,9 @@ OUTPUT Relazione.pdf
 INPUT .\rate_tensione.png
 INPUT .\rate_tensione.png
 INPUT .\rate_tensione.png
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti7.tfm
+INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti7.tfm
 INPUT C:\Users\Sofia\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\conteggi in singola.png
@@ -118,6 +142,20 @@ INPUT .\conteggi in singola.png
 INPUT .\conteggi in singola.png
 INPUT .\conteggi in singola.png
 INPUT .\conteggi in singola.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\coincidenze.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
+INPUT .\distribuzione.png
 INPUT Relazione.aux
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\Sofia\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
