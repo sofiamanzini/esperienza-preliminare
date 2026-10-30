@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793226403.03636 "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793226404.64403 0
+["pdflatex"] 1793357953.52583 "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793357954.57997 0
   "C:/Users/Sofia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793201142 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Sofia/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1792942403 13402714 77c3f3085d0efb08204fc02a4d0ed071 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -69,12 +69,12 @@
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty" 1791820896 364761 1718259de0b7353d0fefc6e44af29c0e ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1780057721 17611 1fdd60d12fed6aebd140f4d060571642 ""
   "C:/Users/Sofia/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "Relazione.aux" 1793226404 2547 1e4b6211a3d7477f8a17964b815e2657 "pdflatex"
-  "Relazione.tex" 1793226338 11522 dcc9d7b8be0d0460908f4abd43fc7f23 ""
-  "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" 1793226338 11522 dcc9d7b8be0d0460908f4abd43fc7f23 ""
+  "Relazione.aux" 1793357954 2919 3a445e5e07d6aad9837203e5e075d2cb "pdflatex"
+  "Relazione.tex" 1793357952 13202 cbc423eb29df664fa141a43c2a221392 ""
+  "c:/Users/Sofia/Documents/GitHub/esperienza-preliminare/Relazione/Relazione.tex" 1793357952 13202 cbc423eb29df664fa141a43c2a221392 ""
   "coincidenze.png" 1793225142 13635 d3a9297bb27bb8a0da6c219d4467a051 ""
   "conteggi in singola.png" 1793203485 17246 f6efd3470aa076334fdd7b434fad0403 ""
-  "distribuzione.png" 1793226295 11397 458fc5e8dea3e5be4c1a1032480204fb ""
+  "fit poisson.png" 1793355037 26044 624d523e2796a791205702c3e035d528 ""
   "rate_tensione.png" 1793226402 15998 46b2ed6f0a3c0d749a3e9e17a11543fb ""
   (generated)
   "Relazione.aux"
