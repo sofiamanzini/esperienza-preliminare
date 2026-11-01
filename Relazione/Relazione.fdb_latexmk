@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793543174.68773 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793543175.74573 0
+["pdflatex"] 1793544254.79485 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793544256.13749 0
   "C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793205840 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/johan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1793031030 13334350 b9f739473c3525ecfeebc75f5c24de1c ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -83,9 +83,9 @@
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/siunitx/siunitx.sty" 1791820896 364761 1718259de0b7353d0fefc6e44af29c0e ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
-  "Relazione.aux" 1793543175 3432 28e50304a138f134a6f265272088ebfa "pdflatex"
-  "Relazione.tex" 1793543119 16716 70e9e5677b5dfdb113e92b2a34868dd9 ""
-  "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793543119 16716 70e9e5677b5dfdb113e92b2a34868dd9 ""
+  "Relazione.aux" 1793544255 3542 b732b16a17d3149252e4506a099562c6 "pdflatex"
+  "Relazione.tex" 1793544252 17469 5d3458ea0bbb6dccbfca7d6a13c98a38 ""
+  "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793544252 17469 5d3458ea0bbb6dccbfca7d6a13c98a38 ""
   "coincidenze.png" 1793296398 13635 d3a9297bb27bb8a0da6c219d4467a051 ""
   "conteggi in singola.png" 1793204955 17246 f6efd3470aa076334fdd7b434fad0403 ""
   "fit poisson.png" 1793543119 26044 624d523e2796a791205702c3e035d528 ""

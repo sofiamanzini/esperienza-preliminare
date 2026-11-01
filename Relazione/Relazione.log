@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  1 NOV 2026 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  1 NOV 2026 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,22 +363,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 133--139
-
- []
-
-[2 <./rate_tensione.png>]
+{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2 <./rate_tensione.png>]
 <conteggi in singola.png, id=19, 419.166pt x 300.6432pt>
 File: conteggi in singola.png Graphic file (type png)
 <use conteggi in singola.png>
-Package pdftex.def Info: conteggi in singola.png  used on input line 165.
+Package pdftex.def Info: conteggi in singola.png  used on input line 169.
 (pdftex.def)             Requested size: 386.95897pt x 277.5447pt.
  [3 <./conteggi in singola.png>]
 <coincidenze.png, id=24, 406.8801pt x 298.4751pt>
 File: coincidenze.png Graphic file (type png)
 <use coincidenze.png>
-Package pdftex.def Info: coincidenze.png  used on input line 217.
+Package pdftex.def Info: coincidenze.png  used on input line 222.
 (pdftex.def)             Requested size: 362.77264pt x 266.12021pt.
  [4
 
@@ -386,7 +381,7 @@ Package pdftex.def Info: coincidenze.png  used on input line 217.
 <fit poisson.png, id=30, 497.2176pt x 324.4923pt>
 File: fit poisson.png Graphic file (type png)
 <use fit poisson.png>
-Package pdftex.def Info: fit poisson.png  used on input line 266.
+Package pdftex.def Info: fit poisson.png  used on input line 271.
 (pdftex.def)             Requested size: 362.77264pt x 236.76352pt.
  [5 <./fit poisson.png>] [6] (Relazione.aux)
  ***********
@@ -395,15 +390,15 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8966 strings out of 467866
- 197709 string characters out of 5417837
- 596370 words of memory out of 5000000
- 37764 multiletter control sequences out of 15000+600000
+ 8968 strings out of 467866
+ 197748 string characters out of 5417837
+ 596421 words of memory out of 5000000
+ 37766 multiletter control sequences out of 15000+600000
  636628 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,80p,755b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relazione.pdf (6 pages, 230148 bytes).
+Output written on Relazione.pdf (6 pages, 230588 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

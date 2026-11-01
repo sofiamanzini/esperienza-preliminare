@@ -128,17 +128,20 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
 %Scelta soglia discriminatore, misura di ritaardo introdotto dal discriminatore,
 %misura della larghezza del segnale in uscita dal discriminatore.
 
-\subsection{conteggi in singola}
+\subsection{Conteggi in singola}
 \singlespacing
+I tre PMT sono stati connessi ai rispettivi canali del discriminatore tramite cavi coassiali da 2\textit{ns}, e successivamente i segnali discriminati sono stati inviati allo scaler attraverso cavi coassiali da 4\textit{ns}.\\
+Impostata la soglia del discriminatore a -30\textit{mV}, sono stati registrati i conteggi in 10 secondi per ciascun PMT, ripetendo la misura 10 volte per ogni rivelatore.\\
+Nella tabella~\ref{tab:conteggi_singola} sono riportati i valori dei conteggi registrati per ciascun PMT, mentre in figura~\ref{fig:conteggi_singola} sono rappresentati i valori medi dei conteggi con le relative incertezze, calcolate come deviazione standard della media campionaria.
 Si sono connessi i segnali logici discriminati dei tre PMT allo scaler.
 \\In tabella sono riportati i conteggi in 10 secondi per i tre PMT 
 in modalità singola.
-\\ In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
+\\In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
 con incertezze date dalla deviazione standard della media campionaria.
 \\
-
 \begin{table}[htbp]
     \centering
+    
     
     \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
         \hline
@@ -155,6 +158,7 @@ con incertezze date dalla deviazione standard della media campionaria.
         \textbf{PMT3} & 2020 & 1975 & 1983 & 1902 & 1931 & 1996 & 2004 & 1963 & 1963 & 1985 \\
         \hline
     \end{tabular}
+    \label{tab:conteggi_singola}
     \caption{Conteggi in singola misura con scaler.}
 \end{table}
 
@@ -200,6 +204,7 @@ Questi sono i risultati ottenuti:
         \hline
     \end{tabular}
     \caption{Conteggi di coincidenze doppie e triple con unità di coincidenza.}
+    \label{tab:coincidenze}
 \end{table}
 
 Si nota che, come aspettato, la combinazione che ha il rate minore di coincidenze doppie è proprio la 1-3 che ha i rivelatori più distanti e inoltre la combinazione 1-2 ha un rate minore rispetto alla combinazione 2-3 perché nel nostro setup i rivelatori 1-2 sono più distanti rispetto ai rivelatori 2-3.
