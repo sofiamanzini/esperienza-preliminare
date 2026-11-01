@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  30 OCT 2026 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  1 NOV 2026 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -265,22 +265,22 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (Relazione.aux)
 \openout1 = `Relazione.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Info: Redefining \it@ocap on input line 26.
-LaTeX Info: Redefining \it@ccap on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Info: Redefining \it@ocap on input line 25.
+LaTeX Info: Redefining \it@ccap on input line 25.
 
 
 File italian.ldf warning: 
@@ -288,7 +288,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 26.
+italian.ldf    on input line 25.
 
 (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -343,19 +343,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <rate_tensione.png, id=1, 419.166pt x 314.3745pt>
 File: rate_tensione.png Graphic file (type png)
 <use rate_tensione.png>
-Package pdftex.def Info: rate_tensione.png  used on input line 77.
+Package pdftex.def Info: rate_tensione.png  used on input line 76.
 (pdftex.def)             Requested size: 386.95897pt x 290.22101pt.
 
 
@@ -364,7 +364,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 134--140
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
 
  []
 
@@ -372,22 +372,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--140
 <conteggi in singola.png, id=19, 419.166pt x 300.6432pt>
 File: conteggi in singola.png Graphic file (type png)
 <use conteggi in singola.png>
-Package pdftex.def Info: conteggi in singola.png  used on input line 166.
+Package pdftex.def Info: conteggi in singola.png  used on input line 165.
 (pdftex.def)             Requested size: 386.95897pt x 277.5447pt.
  [3 <./conteggi in singola.png>]
 <coincidenze.png, id=24, 406.8801pt x 298.4751pt>
 File: coincidenze.png Graphic file (type png)
 <use coincidenze.png>
-Package pdftex.def Info: coincidenze.png  used on input line 180.
+Package pdftex.def Info: coincidenze.png  used on input line 217.
 (pdftex.def)             Requested size: 362.77264pt x 266.12021pt.
-<distribuzione.png, id=25, 455.301pt x 339.669pt>
-File: distribuzione.png Graphic file (type png)
-<use distribuzione.png>
-Package pdftex.def Info: distribuzione.png  used on input line 226.
-(pdftex.def)             Requested size: 362.77264pt x 270.64716pt.
  [4
 
- <./coincidenze.png>] [5 <./distribuzione.png>] (Relazione.aux)
+ <./coincidenze.png>]
+<fit poisson.png, id=30, 497.2176pt x 324.4923pt>
+File: fit poisson.png Graphic file (type png)
+<use fit poisson.png>
+Package pdftex.def Info: fit poisson.png  used on input line 266.
+(pdftex.def)             Requested size: 362.77264pt x 236.76352pt.
+ [5 <./fit poisson.png>] [6] (Relazione.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -395,16 +396,16 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  8966 strings out of 467866
- 197725 string characters out of 5417837
- 596371 words of memory out of 5000000
+ 197709 string characters out of 5417837
+ 596370 words of memory out of 5000000
  37764 multiletter control sequences out of 15000+600000
  636628 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,80p,755b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relazione.pdf (5 pages, 175009 bytes).
+<C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Relazione.pdf (6 pages, 230148 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
