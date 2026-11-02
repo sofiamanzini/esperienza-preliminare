@@ -13,6 +13,9 @@
 \newcommand{\exn}{\phantom{xxx}}
 \newcommand{\abs}[1]{\lvert#1\rvert}
 %\renewcommand{\thesubsection}{\thesection.\alph{subsection}}  %% use 1.a numbering
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float} % facoltativo, serve per usare l'opzione [H] e non farle spostare
 
 \usepackage{graphicx} 
 \usepackage{hyperref}
@@ -23,20 +26,39 @@
 \author{Johann Bandini, Sofia Manzini, Alessio Niccolai }
 \date{01 Novembre 2026}
 
-\begin{document}
+\begin{document}    
 
 \maketitle
 \section{Abstract}
 Lo scopo dell'esperienza è la rivelazione di raggi cosmici mediante l'utilizzo di 3 PMT (plastic scintillators coupled to photomultiplier tubes) disposti in verticale uno sopra l'altro.
-Si sono studiati i segnali in uscita dei PMT utilizzando un discriminatore, due unità di coincidenza, e un multiscaler, al fine di misurare una stima dell'efficienza del PMT centrale. \\
-Si sono anche analizzate le proprietà statistiche dei conteggi delle particelle rivelate.
+Sono stati studiati i segnali in uscita dei PMT utilizzando un discriminatore, due unità di coincidenza, e un multiscaler, al fine di misurare una stima dell'efficienza del PMT centrale. \\
+Sono anche state analizzate le proprietà statistiche dei conteggi delle particelle rivelate.
 
-\begin{figure}[htbp]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{setup.jpeg}
-  \caption{Setup sperimantele}
-  \label{fig:mia_immagine}
+  
+  % Prima sotto-figura
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{setup.jpeg}
+    \caption{Setup sperimentale dell'oscilloscopio, discriminatore, unità di coincidenza e scaler.}
+    \label{fig:setup}
+  \end{subfigure}
+  \hfill % Spazio orizzontale elastico per separare le due immagini
+  % Seconda sotto-figura
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{schema_PMT.jpeg}
+    \caption{Rappresentazione schematica del setup dei PMT.}
+    \label{fig:schema_pmt}
+  \end{subfigure}
+
+  \caption{Setup sperimentale.}
+  \label{fig:confronto_segnali}
 \end{figure}
+
+
+
 
 
 
@@ -108,7 +130,6 @@ La misura del ritardo è stata effettuata misurando la distanza temporale tra il
 % La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2) ns$. \\Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20 mV$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2) ns$.
 L'incertezza di $\pm 2 ns$ è stata stimata considerando sia l'errore associato ai singoli cursori ($\pm 1 ns$), legato alla risoluzione del fondo scala utilizzato, sia la difficoltà di identificare i punti da considerare.
 
-<<<<<<< HEAD
 
 \begin{figure}[H]
   \centering
@@ -118,9 +139,6 @@ L'incertezza di $\pm 2 ns$ è stata stimata considerando sia l'errore associato 
 \end{figure}
 
  %Queste incertezze sono state sommate in quadratura e arrotondate per eccesso a $\pm 2\textit{ns}$ in modo da tenere in considerazione la difficile identificazione dei punti da considerare, dovuta al rumore presente sul segnale del PMT1.
-=======
- %Queste incertezze sono state sommate in quadratura e arrotondate per eccesso a $\pm 2 ns$ in modo da tenere in considerazione la difficile identificazione dei punti da considerare, dovuta al rumore presente sul segnale del PMT1.
->>>>>>> a9d17e49cb902c847b50dbdf00723971e2c5416f
 
 %\\[6pt]L'incertezza di $\pm 2 ns$ è stata ottenuta raddoppiando l'errore associato al singolo cursore ($\pm 1 ns$), legato alla risoluzione del fondo scala utilizzato, così da considerare l'incertezza combinata su entrambi gli estremi dell'intervallo temporale.
 
@@ -343,9 +361,9 @@ per valori di tensione minori di 900V il nostro rivelatore non è più efficient
 
 %\newpage
 \section{Distribuzione conteggi}
-Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi. 
+\`E stato registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi. 
 \singlespacing
-Nei conteggi delle coincidenze triple gli eventi sono indipendenti e si verificano con probabilità costante per unità di tempo, quindi ci aspettiamo che seguano una distribuzione di Poisson.
+Nei conteggi delle coincidenze triple gli eventi sono indipendenti e si verificano con probabilità costante per unità di tempo, quindi è atteso che seguano una distribuzione di Poisson.
 \singlespacing
 
 In figura \ref{fig:fit poisson}, è riportato l'istrogramma della frequenza dei conteggi, e la poissoniana con media restituita dal fit dei minimi quadrati sui dati ($\chi^2$/ndof =$ 3.18/4$, p-value=$0.53$).
