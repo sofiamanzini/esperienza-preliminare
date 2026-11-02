@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 18:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -423,52 +423,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./setup.jpeg>] [2 <./rate_tensione.png>]
-<ritardo_discriminatore.jpeg, id=89, 2047.65pt x 1152.305pt>
+<ritardo_discriminatore.jpeg, id=87, 2047.65pt x 1152.305pt>
 File: ritardo_discriminatore.jpeg Graphic file (type jpg)
 <use ritardo_discriminatore.jpeg>
-Package pdftex.def Info: ritardo_discriminatore.jpeg  used on input line 114.
+Package pdftex.def Info: ritardo_discriminatore.jpeg  used on input line 115.
 (pdftex.def)             Requested size: 362.77264pt x 204.13556pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-<conteggi in singola.png, id=93, 420.3705pt x 298.716pt>
+[3 <./ritardo_discriminatore.jpeg>]
+<conteggi in singola.png, id=98, 420.3705pt x 298.716pt>
 File: conteggi in singola.png Graphic file (type png)
 <use conteggi in singola.png>
-Package pdftex.def Info: conteggi in singola.png  used on input line 190.
+Package pdftex.def Info: conteggi in singola.png  used on input line 194.
 (pdftex.def)             Requested size: 386.95897pt x 274.98613pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <./ritardo_discriminatore.jpeg>] [4 <./conteggi in singola.png>]
-<coincidenze.png, id=108, 406.1574pt x 295.8252pt>
+ [4 <./conteggi in singola.png>]
+<coincidenze.png, id=107, 406.1574pt x 295.8252pt>
 File: coincidenze.png Graphic file (type png)
 <use coincidenze.png>
-Package pdftex.def Info: coincidenze.png  used on input line 239.
+Package pdftex.def Info: coincidenze.png  used on input line 243.
 (pdftex.def)             Requested size: 362.77264pt x 264.22247pt.
-<ritardo_coincidenzabis.jpeg, id=109, 2031.59pt x 2055.68pt>
+<ritardo_coincidenzabis.jpeg, id=108, 2031.59pt x 2055.68pt>
 File: ritardo_coincidenzabis.jpeg Graphic file (type jpg)
 <use ritardo_coincidenzabis.jpeg>
-Package pdftex.def Info: ritardo_coincidenzabis.jpeg  used on input line 253.
+Package pdftex.def Info: ritardo_coincidenzabis.jpeg  used on input line 257.
 (pdftex.def)             Requested size: 362.77264pt x 367.05792pt.
  [5
 
  <./coincidenze.png>] [6 <./ritardo_coincidenzabis.jpeg>]
-<efficienza_v.png, id=127, 409.7709pt x 311.7246pt>
+<efficienza_v.png, id=126, 409.7709pt x 311.7246pt>
 File: efficienza_v.png Graphic file (type png)
 <use efficienza_v.png>
-Package pdftex.def Info: efficienza_v.png  used on input line 330.
+Package pdftex.def Info: efficienza_v.png  used on input line 334.
 (pdftex.def)             Requested size: 193.47578pt x 147.18124pt.
-<fit poisson.png, id=129, 495.5313pt x 322.806pt>
+<fit poisson.png, id=128, 495.5313pt x 322.806pt>
 File: fit poisson.png Graphic file (type png)
 <use fit poisson.png>
-Package pdftex.def Info: fit poisson.png  used on input line 348.
+Package pdftex.def Info: fit poisson.png  used on input line 356.
 (pdftex.def)             Requested size: 362.77264pt x 236.336pt.
 
 
@@ -495,7 +493,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,692b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relazione.pdf (9 pages, 1553791 bytes).
+Output written on Relazione.pdf (9 pages, 1554794 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
