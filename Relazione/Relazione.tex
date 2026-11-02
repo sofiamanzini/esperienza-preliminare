@@ -104,6 +104,7 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
 
   \label{tab:effetto_soglia}
   \vspace{0.2cm}
+<<<<<<< Updated upstream
   \begin{tabular}{||c|c||}
     \hline
     \textbf{Soglia [mV]} & \textbf{Rate di trigger [Hz]} \\
@@ -113,6 +114,17 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
     $-46 \pm 1$ & $118 \pm 15$ \\ \hline
     $-60 \pm 1$ & $46 \pm 16$ \\
     \hline
+=======
+  \begin{tabular}{cc}
+    \toprule
+    \textbf{Soglia [mV]} & \textbf{$\bar{x} \pm s$ [Hz]} \\
+    \midrule
+    $-24 \pm 2$ & $412,83 \pm 49,97$ \\
+    $-30 \pm 2$ & $304,75 \pm 29,85$ \\
+    $-46 \pm 2$ & $118,75 \pm 14,91$ \\
+    $-60 \pm 2$ & $46,33 \pm 16,67$ \\
+    \bottomrule
+>>>>>>> Stashed changes
   \end{tabular}
     \caption{Frequenza di trigger media e sua deviazione standard della media campionaria in funzione della soglia del discriminatore.}
 \end{table}
@@ -128,6 +140,7 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
 %misura della larghezza del segnale in uscita dal discriminatore.
 
 \subsection{Conteggi in singola}
+<<<<<<< Updated upstream
 
 I tre PMT sono stati connessi ai rispettivi canali del discriminatore tramite cavi coassiali da 2\textit{ns}, e successivamente i segnali discriminati sono stati inviati allo scaler attraverso cavi coassiali da 4\textit{ns}.\\
 Impostata la soglia del discriminatore a -30\textit{mV}, sono stati registrati i conteggi in 10 secondi per ciascun PMT, ripetendo la misura 10 volte per ogni rivelatore.\\
@@ -135,7 +148,20 @@ Impostata la soglia del discriminatore a -30\textit{mV}, sono stati registrati i
 Nella tabella \ref{tab:conteggi_singola} sono riportati i valori dei conteggi registrati per ciascun PMT, mentre in figura \ref{fig:conteggi_singola} sono rappresentati i valori medi dei conteggi con le relative incertezze, calcolate come deviazione standard della media campionaria.\\[6pt]
 
 
+=======
+%\singlespacing
+I tre PMT sono stati connessi ai rispettivi canali del discriminatore tramite cavi coassiali da 2\textit{ns}, e successivamente i segnali discriminati sono stati inviati allo scaler attraverso cavi coassiali da 4\textit{ns}.\\
+Impostata la soglia del discriminatore a -30\textit{mV}, sono stati registrati i conteggi in 10 secondi per ciascun PMT, ripetendo la misura 10 volte per ogni rivelatore.\\
+Nella tabella~\ref{tab:conteggi_singola} sono riportati i valori dei conteggi registrati per ciascun PMT, mentre in figura~\ref{fig:conteggi_singola} sono rappresentati i valori medi dei conteggi con le relative incertezze, calcolate come deviazione standard della media campionaria.
+%Si sono connessi i segnali logici discriminati dei tre PMT allo scaler.
+%In tabella sono riportati i conteggi in 10 secondi per i tre PMT 
+%in modalità singola.
+%\\In figura \ref{fig:conteggi_singola} sono riportati i valori medi dei conteggi per ogni PMT,
+%con incertezze date dalla deviazione standard della media campionaria.
+%\\
+>>>>>>> Stashed changes
 \begin{table}[htbp]
+    
     \centering
     
     
@@ -154,7 +180,6 @@ Nella tabella \ref{tab:conteggi_singola} sono riportati i valori dei conteggi re
         \textbf{PMT3} & 2020 & 1975 & 1983 & 1902 & 1931 & 1996 & 2004 & 1963 & 1963 & 1985 \\
         \hline
     \end{tabular}
-    \label{tab:conteggi_singola}
     \caption{Conteggi in singola misura con scaler.}
     \label{tab:conteggi_singola}
 \end{table}
