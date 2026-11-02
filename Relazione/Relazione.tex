@@ -30,7 +30,13 @@
 Lo scopo dell'esperienza è la rivelazione di raggi cosmici mediante l'utilizzo di 3 PMT (plastic scintillators coupled to photomultiplier tubes) disposti in verticale uno sopra l'altro.
 Si sono studiati i segnali in uscita dei PMT utilizzando un discriminatore, due unità di coincidenza, e un multiscaler, al fine di stimare tramite il rapporto di coincidenze triple su doppie la quantità $P_{\text{pass}} \cdot \varepsilon$. \\
 Si sono anche analizzate le proprietà statistiche dei conteggi delle particelle rivelate.
-\section{Punto di lavoro}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.4\textwidth]{setup.jpeg}
+  \caption{Setup sperimantele}
+  \label{fig:mia_immagine}
+\end{figure}
 
 
 
@@ -101,6 +107,14 @@ Inoltre è stato misurato il ritardo del segnale del discriminatore rispetto all
 La misura del ritardo è stata effettuata misurando la distanza temporale tra il punto in cui il segnale del PMT1 scende al di sotto della soglia impostata di $-20\textit{mV}$ e l'inizio del segnale in uscita dal discriminatore. Il ritardo misurato è $(12 \pm 2)\textit{ns}$. \\
 % La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2)\textit{ns}$. \\Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20\textit{mV}$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2)\textit{ns}$.
 L'incertezza di $\pm 2\textit{ns}$ è stata stimata considerando sia l'errore associato ai singoli cursori ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, sia la difficoltà di identificare i punti da considerare.
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{ritardo_discriminatore.jpeg}
+  \caption{Oscilloscopio durante la misura del ritardo introdotto dal discriminatore. Il canale 1 (giallo) mostra il segnale del PMT1, mentre il canale 2 (azzurro) mostra il segnale in uscita dal discriminatore. I cursori sono stati posizionati per misurare la distanza temporale tra l'istante in cui il segnale del PMT1 scende al di sotto della soglia di $-20\textit{mV}$ e l'inizio del segnale in uscita dal discriminatore.}
+  \label{fig:mia_immagine}
+\end{figure}
 
  %Queste incertezze sono state sommate in quadratura e arrotondate per eccesso a $\pm 2\textit{ns}$ in modo da tenere in considerazione la difficile identificazione dei punti da considerare, dovuta al rumore presente sul segnale del PMT1.
 
@@ -234,10 +248,17 @@ Le coincidenze triple, come aspettato, hanno rate minore rispetto a tutte le com
 Il ritardo introdotto dall'unità di coincidenza è stato misurato collegando un'uscita del primo canale del discriminatore all'ingresso dell'unità di coincidenza con un cavo da 4\textit{ns} e l'uscita della stessa al canale 2 dell'oscilloscopio con un cavo da 2\textit{ns}; un'altra uscita del primo canale del discriminatore è stata collegata direttamente al canale 1 dell'oscilloscopio con un cavo da 2\textit{ns}.\\
 Il ritardo è stato misurato tramite i cursori come differenza tra l'istante in cui scatta il segnale del discriminatore e l'istante in cui scatta il segnale in uscita dall'unità di coincidenza. Al valore ottenuto dalla misurazione diretta è stato sottratto il ritardo di 2\textit{ns} introdotto dal cavo in più, ottenendo un valore di $(12\pm 2)\textit{ns}$.
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.75\textwidth]{ritardo_coincidenzabis.jpeg}
+  \caption{Oscilloscopio durante la misura del ritardo introdotto dall'unità di coincidenza. Il canale 1 (giallo) mostra il segnale discriminato del PMT1, mentre il canale 2 (azzurro) mostra il segnale in uscita dall'unità di coincidenza. I cursori sono stati posizionati per misurare la distanza temporale tra l'istante in cui il segnale del PMT1 scende al di sotto della soglia di $-20\textit{mV}$ e l'inizio del segnale in uscita dall'unità di coincidenza.}
+  \label{fig:ritardo_coincidenza}
+\end{figure}
 
 
 
-\newpage
+
+
 
 
 

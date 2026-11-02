@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793638708.99751 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793638712.34723 0
+["pdflatex"] 1793639845.39338 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793639848.10472 0
   "C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793629023 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/johan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1793031030 13334350 b9f739473c3525ecfeebc75f5c24de1c ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -95,15 +95,18 @@
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "Relazione.aux" 1793638711 5829 06510694be2ae2d1578355729dfc22ff "pdflatex"
-  "Relazione.out" 1793638711 3257 e1e483fdc056012581c13629c985fecd "pdflatex"
-  "Relazione.tex" 1793638707 21961 264eb017da2305e083e4b897361a0f0e ""
-  "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793638707 21961 264eb017da2305e083e4b897361a0f0e ""
+  "Relazione.aux" 1793639847 7980 3d156e5b50beece01cdba35111d6158d "pdflatex"
+  "Relazione.out" 1793639847 3153 05931ed856883378ef9e030ad9c6a585 "pdflatex"
+  "Relazione.tex" 1793639841 23200 18e3f8dd902106a421465f4046127f8e ""
+  "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793639841 23200 18e3f8dd902106a421465f4046127f8e ""
   "coincidenze.png" 1793626831 59492 bf316f520cb14f68720339cae00d846f ""
   "conteggi in singola.png" 1793626831 74744 f46ea1783e31844e2353a621eedbc376 ""
   "efficienza_v.png" 1793626831 70641 c6ba16b253c3dddcbcc8e0c087ab52c7 ""
   "fit poisson.png" 1793626831 94954 146365c17ce2f36893cfba51863b07e7 ""
   "rate_tensione.png" 1793626831 63302 051b408dc46fdbb512f40912f6e2a8b2 ""
+  "ritardo_coincidenzabis.jpeg" 1793639599 312767 eb163f82d0606599b10ef73fbd5a9266 ""
+  "ritardo_discriminatore.jpeg" 1793638581 265781 d64bdfc02a2fe7fdb84f16d743fa6892 ""
+  "setup.jpeg" 1793639729 458654 6e5d176fb2368fc007fb80cf7d7a4f1a ""
   (generated)
   "Relazione.aux"
   "Relazione.log"
