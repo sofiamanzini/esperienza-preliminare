@@ -30,7 +30,7 @@
 Lo scopo dell'esperienza è la rivelazione di raggi cosmici mediante l'utilizzo di 3 PMT (plastic scintillators coupled to photomultiplier tubes) disposti in verticale uno sopra l'altro.
 Si sono studiati i segnali in uscita dei PMT utilizzando un discriminatore, due unità di coincidenza, e un multiscaler, al fine di stimare tramite il rapporto di coincidenze triple su doppie la quantità $P_{\text{pass}} \cdot \varepsilon$. \\
 Si sono anche analizzate le proprietà statistiche dei conteggi delle particelle rivelate.
-\section{Punto di lavoro}
+
 
 
 
@@ -310,10 +310,14 @@ per valori di tensione minori di 900V il nostro rivelatore non è più efficient
 
 %\newpage
 \section{Distribuzione conteggi}
-Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi.
+Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi. 
 \singlespacing
-In figura \ref{fig:fit poisson}, è riportato l'istrogramma della frequenza dei conteggi, e la poissoniana con media restituita dal fit dei minimi quadrati sui dati.
-\\ Il rapporto della media aritmetica sulla varianza dei dati è $\text{media}/\text{varianza}=1.016 \approx 1$, come ci si aspetterebbe da una poissoniana.
+Nei conteggi delle coincidenze triple gli eventi sono indipendenti e si verificano con probabilità costante per unità di tempo, quindi ci aspettiamo che seguano una distribuzione di Poisson.
+\singlespacing
+
+In figura \ref{fig:fit poisson}, è riportato l'istrogramma della frequenza dei conteggi, e la poissoniana con media restituita dal fit dei minimi quadrati sui dati ($\chi^2$/ndof =$ 3.18/4$, p-value=$0.53$).
+\\ Il rapporto della media aritmetica sulla varianza dei dati è $1.016 \approx 1$, come ci si aspetterebbe da una poissoniana.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.75\textwidth]{fit poisson.png}
