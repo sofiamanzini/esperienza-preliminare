@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 15:12
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 14:48
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -207,4 +211,143 @@ Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 
+<<<<<<< Updated upstream
 Enter file name: 
+=======
+(C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count325
+\scratchdimen=\dimen189
+\scratchbox=\box67
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen190
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks30
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+(C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<rate_tensione.png, id=1, 420.3705pt x 313.8927pt>
+File: rate_tensione.png Graphic file (type png)
+<use rate_tensione.png>
+Package pdftex.def Info: rate_tensione.png  used on input line 73.
+(pdftex.def)             Requested size: 338.58632pt x 252.83875pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+{C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+[2 <./rate_tensione.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+<conteggi in singola.png, id=18, 420.3705pt x 298.716pt>
+File: conteggi in singola.png Graphic file (type png)
+<use conteggi in singola.png>
+Package pdftex.def Info: conteggi in singola.png  used on input line 166.
+(pdftex.def)             Requested size: 386.95897pt x 274.98613pt.
+[3 <./conteggi in singola.png>]
+<coincidenze.png, id=23, 406.1574pt x 295.8252pt>
+File: coincidenze.png Graphic file (type png)
+<use coincidenze.png>
+Package pdftex.def Info: coincidenze.png  used on input line 216.
+(pdftex.def)             Requested size: 362.77264pt x 264.22247pt.
+ [4
+
+ <./coincidenze.png>]
+<efficienza_v.png, id=28, 409.7709pt x 311.7246pt>
+File: efficienza_v.png Graphic file (type png)
+<use efficienza_v.png>
+Package pdftex.def Info: efficienza_v.png  used on input line 253.
+(pdftex.def)             Requested size: 362.77264pt x 275.98328pt.
+<fit poisson.png, id=29, 495.5313pt x 322.806pt>
+File: fit poisson.png Graphic file (type png)
+<use fit poisson.png>
+Package pdftex.def Info: fit poisson.png  used on input line 265.
+(pdftex.def)             Requested size: 362.77264pt x 236.336pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./efficienza_v.png>] [6 <./fit poisson.png>] [7] (Relazione.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 8979 strings out of 467866
+ 197977 string characters out of 5417837
+ 592481 words of memory out of 5000000
+ 37777 multiletter control sequences out of 15000+600000
+ 637234 words of font info for 76 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 73i,10n,80p,757b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Relazione.pdf (7 pages, 497689 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+>>>>>>> Stashed changes

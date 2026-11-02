@@ -1,5 +1,9 @@
 # Fdb version 4
+<<<<<<< Updated upstream
 ["pdflatex"] 1793628745.68763 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793628827.05275 2
+=======
+["pdflatex"] 1793627330.48901 "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" "Relazione.pdf" "Relazione" 1793627333.14161 0
+>>>>>>> Stashed changes
   "C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1793205840 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/johan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1793031030 13334350 b9f739473c3525ecfeebc75f5c24de1c ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -74,14 +78,26 @@
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/hyperref/hyperref.sty" 1769681240 223349 c7928c099a8656537a829ba316c95536 ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/l3backend/l3backend-pdftex.def" 1761202581 30662 bfd6e864f4ffc5018b0e2b6260c3181c ""
   "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
+<<<<<<< Updated upstream
   "Relazione.aux" 1793627593 3965 c3920350f5fb9046042a9491690e6360 "pdflatex"
   "Relazione.tex" 1793628744 18884 90b1b29f994c619a43d005b88065a3be ""
   "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793628744 18884 90b1b29f994c619a43d005b88065a3be ""
+=======
+  "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/siunitx/siunitx.sty" 1791820896 364761 1718259de0b7353d0fefc6e44af29c0e ""
+  "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
+  "C:/Users/johan/AppData/Local/Programs/MiKTeX1/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
+  "Relazione.aux" 1793627332 3704 3d175d6d27b5571217c501bae6288b72 "pdflatex"
+  "Relazione.tex" 1793627326 17969 f9e58b1be71fff504147fb10e46f54d3 ""
+  "c:/Users/johan/OneDrive - unifi.it/Desktop/Lab Int Fond/esperienza-preliminare/Relazione/Relazione.tex" 1793627326 17969 f9e58b1be71fff504147fb10e46f54d3 ""
+>>>>>>> Stashed changes
   "coincidenze.png" 1793626831 59492 bf316f520cb14f68720339cae00d846f ""
   "conteggi in singola.png" 1793626831 74744 f46ea1783e31844e2353a621eedbc376 ""
   "efficienza_v.png" 1793626831 70641 c6ba16b253c3dddcbcc8e0c087ab52c7 ""
   "fit poisson.png" 1793626831 94954 146365c17ce2f36893cfba51863b07e7 ""
+<<<<<<< Updated upstream
   "kvsetkeys.sty" 0 -1 0 ""
+=======
+>>>>>>> Stashed changes
   "rate_tensione.png" 1793626831 63302 051b408dc46fdbb512f40912f6e2a8b2 ""
   (generated)
   "Relazione.aux"
