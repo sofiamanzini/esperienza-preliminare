@@ -13,9 +13,9 @@
 \newcommand{\exn}{\phantom{xxx}}
 \newcommand{\abs}[1]{\lvert#1\rvert}
 %\renewcommand{\thesubsection}{\thesection.\alph{subsection}}  %% use 1.a numbering
-\usepackage{hyperref}
-\usepackage{graphicx} 
 
+\usepackage{graphicx} 
+\usepackage{hyperref}
 
 \usepackage{setspace}
 
@@ -34,15 +34,14 @@ Si sono anche analizzate le proprietà statistiche dei conteggi delle particelle
 
 
 
-In primo luogo, il PMT superiore è stato collegato all'oscilloscopio tramite cavo coassiale caratterizzato da un ritardo di 2\textit{ns}.\\
-Successivamente, il PMT è stato alimentato con tensioni comprese tra gli 800V e i 1200V, incrementando la tensione di 100V ad ogni step. \\
-Impostato il trigger dell'oscillosopio a -30,4\textit{mV}, è stato studiato l'andamento del rate di trigger in funzione della tensione di alimentazione del PMT, andando a registrare 6 misure per ogni valore di tensione.\\
-Dopo aver effettuato le misure è stato scelto il punto di lavoro per il PMT a 1100V in quanto sul nostro rivelatore la frequenza aspettata di raggi cosmici è nell'ordine dei 50-100Hz. \singlespacing
+
+\section{Punto di lavoro}
+In primo luogo, il PMT1 è stato collegato all'oscilloscopio tramite cavo coassiale caratterizzato da un ritardo di 2\textit{ns}.
+Successivamente, il PMT1 è stato alimentato con tensioni comprese tra gli 800V e i 1200V, incrementando la tensione di 100V ad ogni step. \\
+Impostato il trigger dell'oscillosopio a -30,4\textit{mV}, è stato studiato l'andamento del rate di trigger in funzione della tensione di alimentazione del PMT1, andando a registrare 6 misure per ogni valore di tensione (vedi Tabella \ref{tab:rate_vs_v}).\\
+Dopo aver effettuato le misure è stato scelto il punto di lavoro per il PMT1 a 1100V, in quanto sul nostro rivelatore la frequenza aspettata di raggi cosmici è nell'ordine dei 50-100Hz. \singlespacing
 La scelta è stata effettuata notando che le misure per voltaggi più alti restituivano dei valori della frequenza di scatti nell'ordine dei kHz, il ché era attribuibile quasi esclusivamente al noise-rate mentre le misure a voltaggi più bassi avevano una frequenza di scatti troppo bassa ($<$ 50Hz) che faceva presupporre la perdita della maggior parte dei raggi cosmici.
 Inoltre il voltaggio è stato scelto comunque in modo da avere valori di frequenze di scatto maggiori di 100Hz in quanto successivamente, con l'utilizzo delle unità di coincidenza, la quasi totalità degli scatti accidentali sarà eliminata.
-
-
-
 
 \begin{table}[htbp]
     \centering
@@ -68,6 +67,7 @@ Inoltre il voltaggio è stato scelto comunque in modo da avere valori di frequen
     \end{tabular}
     \caption{Media di 6 misure del rate di trigger dell'oscilloscopio,
      in funzione della tensione di alimentazione del PMT.}
+     \label{tab:rate_vs_v}
 \end{table}
 
 
@@ -91,21 +91,27 @@ lavoro a 1100V rappresenta un compromesso tra sensibilità e rumore.
 Inserito il discriminatore nel crate NIM, il segnale in uscita dal PMT1 è stato connesso ad esso tramite cavo coassiale caratterizzato da un ritardo 3\textit{ns}. \\Il segnale in parallelo all'ingresso, e l'uscita del discriminatore, sono stati collegati rispettivamente ai canali 1 e 2 dell'oscilloscopio mediante cavi coassiali con ritardo di 2\textit{ns}.\\
 Successivamente, il trigger del canale 1 è stato impostato a un valore di $-30\textit{mV}$ mentre la soglia del discriminatore ad un valore di -20\textit{mV}.
 \singlespacing 
-In questa configurazione il segnale del discriminatore sull'oscilloscopio presentava alcune anomalie:
-a intervalli irregolari il livello logico 0 risultava traslato verso il basso rispetto a quello nominale; inoltre, nonostante la soglia del discriminatore fosse inferiore in modulo al valore di trigger, non vi era totale corrispondenza tra gli eventi triggerati dall'oscilloscopio e quelli rappresentati dal discriminatore.\\[6pt]
+In questa configurazione il segnale del discriminatore sull'oscilloscopio presentava alcune anomalie: il segnale del discriminiatore non rappresntava correttamente un'uscita logica, ma il segnale scendeva lentamente e rimaneva per lunghi periodi bloccatto ad un livello di tensione intermedio tra 0 e il valore nominale di $-1\textit{V}$.\\[6pt]
+%a intervalli irregolari il livello logico 0 risultava traslato verso il basso rispetto a quello nominale; inoltre, nonostante la soglia del discriminatore fosse inferiore in modulo al valore di trigger, non vi era totale corrispondenza tra gli eventi triggerati dall'oscilloscopio e quelli rappresentati dal discriminatore.\\[6pt]
 Tali anomalie erano da attribuirsi alle condizioni di funzionamento dell'alimentatore dei PMT, collegato direttamente al crate NIM, e operante in prossimità del limite massimo di corrente erogabile.
 Con l'inserimento e l'attivazione del discriminatore, l'assorbimento complessivo superava saltuariamente la soglia di carico nominale del crate, generando instabilità e cadute di tensione sulle linee di alimentazione. \\Tali fluttuazioni privavano temporaneamente il discriminatore della corretta tensione di funzionamento, comportando le anomalie precedentemente descritte.\\[6pt]
 La criticità è stata risolta successivamente con la sostituzione dell'alimentatore CAEN connesso al crate NIM con un alimentatore indipendente Wenzel N1130.\\[6pt]
 Con l'apparato nuovamente in funzione è stata misurata la durata dell'impulso emesso dal discriminatore con i cursori dell'oscilloscopio. Il valore ottenuto è $(48 \pm 2)\textit{ns}$.
-Inoltre è stato misurato il ritardo del segnale del discriminatore rispetto all'impulso del PMT1. La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2)\textit{ns}$. \\Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20\textit{mV}$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2)\textit{ns}$.
-\\[6pt]L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore associato al singolo cursore ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, così da considerare l'incertezza combinata su entrambi gli estremi dell'intervallo temporale.
+Inoltre è stato misurato il ritardo del segnale del discriminatore rispetto all'impulso del PMT1.
+La misura del ritardo è stata effettuata misurando la distanza temporale tra il punto in cui il segnale del PMT1 scende al di sotto della soglia impostata di $-20\textit{mV}$ e l'inizio del segnale in uscita dal discriminatore. Il ritardo misurato è $(12 \pm 2)\textit{ns}$. \\
+% La misura diretta tra i punti di inizio discesa dei due segnali ha fornito un valore di $(14 \pm 2)\textit{ns}$. \\Tuttavia, il discriminatore non scatta all'inizio della discesa del segnale, ma genera l'impulso in uscita soltanto quando la tensione d'ingresso scende al di sotto della soglia impostata di $-20\textit{mV}$. Valutando il ritardo a partire dall'istante in cui l'impulso del PMT1 raggiunge tale valore di soglia fino all'inizio del segnale di uscita, il ritardo effettivo del modulo si riduce a $(12 \pm 2)\textit{ns}$.
+L'incertezza di $\pm 2\textit{ns}$ è stata stimata considerando sia l'errore associato ai singoli cursori ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, sia la difficoltà di identificare i punti da considerare.
+
+ %Queste incertezze sono state sommate in quadratura e arrotondate per eccesso a $\pm 2\textit{ns}$ in modo da tenere in considerazione la difficile identificazione dei punti da considerare, dovuta al rumore presente sul segnale del PMT1.
+
+%\\[6pt]L'incertezza di $\pm 2\textit{ns}$ è stata ottenuta raddoppiando l'errore associato al singolo cursore ($\pm 1\textit{ns}$), legato alla risoluzione del fondo scala utilizzato, così da considerare l'incertezza combinata su entrambi gli estremi dell'intervallo temporale.
 
 \subsubsection{Effetto della soglia del discriminatore}
-Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza misurati al variare della soglia del discriminatore, dove $s$ rappresenta la deviazione standard della media campionaria. All'aumentare del valore assoluto della soglia si osserva una progressiva riduzione del conteggio medio, dovuta all'esclusione dei segnali con ampiezza inferiore al livello impostato.
+Nella Tabella \ref{tab:effetto_soglia} sono riportati i valori medi di frequenza misurati al variare della soglia del discriminatore, dove $s$ rappresenta la deviazione standard della media campionaria. All'aumentare del valore assoluto della soglia si osserva una progressiva riduzione del conteggio medio, dovuta all'esclusione dei segnali con ampiezza inferiore al livello impostato.
 \begin{table}[h!]
   \centering
 
-  \label{tab:effetto_soglia}
+  
   \vspace{0.2cm}
   \begin{tabular}{||c|c||}
     \hline
@@ -118,6 +124,7 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
     \hline
   \end{tabular}
     \caption{Frequenza di trigger media e sua deviazione standard della media campionaria in funzione della soglia del discriminatore.}
+    \label{tab:effetto_soglia}
 \end{table}
 
 %In questa configurazione il segnale del discriminatore sull'oscilloscopio risultava incoerente con il segnale del PMT1: infatti, nonostante la soglia inferiore in modulo, non vi era totale corrispondenza tra gli eventi triggerati dall'oscilloscopio e quelli rappresentati dal discriminatore. Inoltre, sull'oscilloscopio il segnale del discriminatore presentava un livello di linea di base continuo e traslato verso il basso rispetto a quello nominale     
@@ -132,8 +139,8 @@ Nella tabella~\ref{tab:effetto_soglia} sono riportati i valori medi di frequenza
 
 \subsection{Conteggi in singola}
 
-I tre PMT sono stati connessi ai rispettivi canali del discriminatore tramite cavi coassiali da 2\textit{ns}, e successivamente i segnali discriminati sono stati inviati a un multiscaler a 8 canali da $100$MHz attraverso cavi coassiali da 4ns.\\
-Impostata la soglia del discriminatore a -30mV, sono stati registrati i conteggi in 10 secondi per ciascun PMT, ripetendo la misura 10 volte per ogni rivelatore.\\
+I tre PMT sono stati connessi ai rispettivi canali del discriminatore tramite cavi coassiali da 2\textit{ns}, e successivamente i segnali discriminati sono stati inviati a un multiscaler a 8 canali da $100$MHz attraverso cavi coassiali da 4ns. Nel parallelo dell'input dei canali del discriminatore non collegati all'oscilloscopio sono state inserite terminazioni da 50\textit{Ohm}.\\
+Impostata la soglia del discriminatore a -30\textit{mV}, sono stati registrati i conteggi in 10 secondi per ciascun PMT, ripetendo la misura 10 volte per ogni rivelatore.\\
 
 Nella tabella \ref{tab:conteggi_singola} sono riportati i valori dei conteggi registrati per ciascun PMT, mentre in figura \ref{fig:conteggi_singola} sono rappresentati i valori medi dei conteggi con le relative incertezze, calcolate come deviazione standard della media campionaria.\\[6pt]
 
@@ -251,18 +258,12 @@ Utilizzando il punto di lavoro stabilito nella sezione 2 (alimentando quindi i 3
 L’incertezza sul rapporto è data dalla distribuzione binomiale delle coincidenze triple sul numero di doppie fissate (vedi appendice 3).
 
 
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.75\textwidth]{efficienza_v.png}
-    \caption{Andamento del rapporto triple su doppie al variare della tensione di alimentazione dei PMT.}
-    \label{fig:efficienza_v}
-\end{figure}
+
 
 \subsection{Efficienza in funzione del punto di lavoro del PMT}
 
 Le acquisizioni di triple e doppie sono state ripetute per diversi valori di alimentazione del PMT centrale.
-
-Questi sono i risultati ottenuti:
+I risultati sono riportati in Tabella \ref{tab:efficienza} e in Figura \ref{fig:efficienza_v} è mostrato l'andamento del rapporto triple su doppie al variare della tensione di alimentazione del PMT centrale.
 
 \begin{table}[h!]
     \centering
@@ -290,12 +291,24 @@ Questi sono i risultati ottenuti:
         \hline
         
     \end{tabular}
+\caption{Conteggi di coincidenze triple e doppie al variare della tensione di alimentazione del PMT centrale.}
 \label{tab:efficienza}
 
 \end{table}
 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{efficienza_v.png}
+    \caption{Andamento del rapporto triple su doppie al variare della tensione di alimentazione dei PMT.}
+    \label{fig:efficienza_v}
+\end{figure}
+
+Si puo notare come il rapporto salga lentamente nell’intervallo dai 900 ai 1200V mentre si ha una discesa
+molto rapida al di sotto dei 900V. Questo significa che l’efficienza del rivelatore aumenta con il voltaggio e che
+per valori di tensione minori di 900V il nostro rivelatore non è più efficiente.
 
 
+%\newpage
 \section{Distribuzione conteggi}
 Abbiamo registrato il numero di coincidenze triple in un periodo di 1 secondo, ripetendo la misura 55 volte per ricostriuire la distribuzione dei conteggi.
 \singlespacing
@@ -311,8 +324,6 @@ In figura \ref{fig:fit poisson}, è riportato l'istrogramma della frequenza dei 
 
 
 \newpage
-
-
 \section{Appendice}
 
 \subsection{Rapporto triple/doppie e misure di efficienza}

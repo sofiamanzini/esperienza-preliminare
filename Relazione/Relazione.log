@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 15:12
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 14:48
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.10.26)  2 NOV 2026 17:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,29 +200,156 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisrulewidth=\dimen181
 ) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count309
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count313
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen183
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count318
+\c@bookmark@seq@number=\count319
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip54
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count320
+) (Relazione.aux
+
+LaTeX Warning: Label `tab:conteggi_singola' multiply defined.
 
 
-! LaTeX Error: File `kvsetkeys.sty' not found.
+LaTeX Warning: Label `tab:efficienza' multiply defined.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+)
+\openout1 = `Relazione.aux'.
 
-<<<<<<< Updated upstream
-Enter file name: 
-=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Info: Redefining \it@ocap on input line 26.
+LaTeX Info: Redefining \it@ccap on input line 26.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting
+italian.ldf    on input line 26.
+
 (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
-\scratchdimen=\dimen189
-\scratchbox=\box67
-\nofMPsegments=\count326
-\nofMParguments=\count327
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count328
-\MPscratchDim=\dimen190
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count321
+\scratchdimen=\dimen186
+\scratchbox=\box57
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen187
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -267,19 +390,23 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package translations Info: no dictionary file `translations-basic-dictionary-italian.trsl' found. on input line 25.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
-(C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
+Package hyperref Info: Link coloring OFF on input line 26.
+(Relazione.out) (Relazione.out)
+\@outlinefile=\write3
+\openout3 = `Relazione.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+ (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (C:\Users\johan\AppData\Local\Programs\MiKTeX1\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<rate_tensione.png, id=1, 420.3705pt x 313.8927pt>
+<rate_tensione.png, id=60, 420.3705pt x 313.8927pt>
 File: rate_tensione.png Graphic file (type png)
 <use rate_tensione.png>
-Package pdftex.def Info: rate_tensione.png  used on input line 73.
+Package pdftex.def Info: rate_tensione.png  used on input line 74.
 (pdftex.def)             Requested size: 338.58632pt x 252.83875pt.
 
 
@@ -288,66 +415,64 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {C:/Users/johan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 [2 <./rate_tensione.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<conteggi in singola.png, id=18, 420.3705pt x 298.716pt>
+<conteggi in singola.png, id=86, 420.3705pt x 298.716pt>
 File: conteggi in singola.png Graphic file (type png)
 <use conteggi in singola.png>
-Package pdftex.def Info: conteggi in singola.png  used on input line 166.
+Package pdftex.def Info: conteggi in singola.png  used on input line 174.
 (pdftex.def)             Requested size: 386.95897pt x 274.98613pt.
 [3 <./conteggi in singola.png>]
-<coincidenze.png, id=23, 406.1574pt x 295.8252pt>
+<coincidenze.png, id=95, 406.1574pt x 295.8252pt>
 File: coincidenze.png Graphic file (type png)
 <use coincidenze.png>
-Package pdftex.def Info: coincidenze.png  used on input line 216.
+Package pdftex.def Info: coincidenze.png  used on input line 224.
 (pdftex.def)             Requested size: 362.77264pt x 264.22247pt.
  [4
 
  <./coincidenze.png>]
-<efficienza_v.png, id=28, 409.7709pt x 311.7246pt>
+<efficienza_v.png, id=105, 409.7709pt x 311.7246pt>
 File: efficienza_v.png Graphic file (type png)
 <use efficienza_v.png>
-Package pdftex.def Info: efficienza_v.png  used on input line 253.
-(pdftex.def)             Requested size: 362.77264pt x 275.98328pt.
-<fit poisson.png, id=29, 495.5313pt x 322.806pt>
+Package pdftex.def Info: efficienza_v.png  used on input line 299.
+(pdftex.def)             Requested size: 193.47578pt x 147.18124pt.
+ [5 <./efficienza_v.png>]
+<fit poisson.png, id=114, 495.5313pt x 322.806pt>
 File: fit poisson.png Graphic file (type png)
 <use fit poisson.png>
-Package pdftex.def Info: fit poisson.png  used on input line 265.
+Package pdftex.def Info: fit poisson.png  used on input line 317.
 (pdftex.def)             Requested size: 362.77264pt x 236.336pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./efficienza_v.png>] [6 <./fit poisson.png>] [7] (Relazione.aux)
+ [6 <./fit poisson.png>] [7] (Relazione.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Relazione.out' has not changed.
+(rerunfilecheck)             Checksum: 8A1D830F8844774F2491DFA095C4A1C1;2880.
  ) 
 Here is how much of TeX's memory you used:
- 8979 strings out of 467866
- 197977 string characters out of 5417837
- 592481 words of memory out of 5000000
- 37777 multiletter control sequences out of 15000+600000
+ 11591 strings out of 467866
+ 181660 string characters out of 5417837
+ 622256 words of memory out of 5000000
+ 40297 multiletter control sequences out of 15000+600000
  637234 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,10n,80p,757b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,642b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/johan/AppData/Local/Programs/MiKTeX1/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relazione.pdf (7 pages, 497689 bytes).
+Output written on Relazione.pdf (7 pages, 511034 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 
->>>>>>> Stashed changes
